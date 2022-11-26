@@ -6,8 +6,8 @@ class AWSRULE11(BaseResourceCheck):
     aws_rule11 = list()
 
     def __init__(self) -> None:
-        name = "x"
-        id = "CKV_AWS_999"
+        name = "Do not declare the same account repeatedly."
+        id = "IC_AWS_15"
         supported_resources = ("aws_snapshot_create_volume_permission",)
         categories = (CheckCategories.GENERAL_SECURITY,)
         super().__init__(name=name, id=id, categories=categories, supported_resources=supported_resources)

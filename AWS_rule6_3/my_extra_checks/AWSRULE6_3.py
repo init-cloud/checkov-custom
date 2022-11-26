@@ -1,8 +1,6 @@
 from checkov.common.models.enums import CheckCategories, CheckResult
 from checkov.terraform.checks.resource.base_resource_check import BaseResourceCheck
 
-user_list, role_list, group_list = list(), list(), list()
-
 
 def check_resource_conf(conf, arg, arg_list):
     if arg in conf.keys() and 'policy_arn' in conf.keys():
@@ -20,17 +18,19 @@ def check_resource_conf(conf, arg, arg_list):
 
 
 class AWSRULE6_3(BaseResourceCheck):
+    user_list, role_list, group_list = list(), list(), list()
+
     def __init__(self) -> None:
-        name = "x"
-        id = "CKV_AWS_999"
+        name = "Do not declare the same user/policy/groups twice"
+        id = "IC_AWS_8"
         supported_resources = ("aws_iam_policy_attachment",)
         categories = (CheckCategories.GENERAL_SECURITY,)
         super().__init__(name=name, id=id, categories=categories, supported_resources=supported_resources)
 
     def scan_resource_conf(self, conf):
-        user_result = check_resource_conf(conf, 'users', user_list)
-        role_result = check_resource_conf(conf, 'roles', role_list)
-        group_result = check_resource_conf(conf, 'groups', group_list)
+        user_result = check_resource_conf(conf, 'users', AWSRULE6_3.user_list)
+        role_result = check_resource_conf(conf, 'roles', AWSRULE6_3.role_list)
+        group_result = check_resource_conf(conf, 'groups', AWSRULE6_3.group_list)
         if user_result == CheckResult.FAILED or role_result == CheckResult.FAILED or group_result == CheckResult.FAILED:
             return CheckResult.FAILED
         else:

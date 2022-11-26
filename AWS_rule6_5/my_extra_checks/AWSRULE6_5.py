@@ -6,8 +6,8 @@ name_list = list()
 
 class AWSRULE6_5(BaseResourceCheck):
     def __init__(self) -> None:
-        name = "x"
-        id = "CKV_AWS_999"
+        name = "Do not declare with same name in aws_iam_user_policy"
+        id = "IC_AWS_10"
         supported_resources = ("aws_iam_user_policy",)
         categories = (CheckCategories.KUBERNETES,)
         super().__init__(name=name, id=id, categories=categories, supported_resources=supported_resources)
