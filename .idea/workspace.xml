@@ -2,72 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d43244d-d138-42a3-94cc-629e1d2fa1a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/IC_NCP_5/IC_NCP_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Checkov-AWS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_1/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_1/my_extra_checks/AWSRULE1.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_1/IC_AWS_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_1/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_10/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_10/my_extra_checks/AWSRULE6_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_10/IC_AWS_10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_10/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_11/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_11/my_extra_checks/AWSRULE6_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_11/IC_AWS_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_11/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_12/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_12/my_extra_checks/AWSRULE6_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_12/IC_AWS_12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_12/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_13/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_13/my_extra_checks/AWSRULE8.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_13/IC_AWS_13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_13/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_14/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_14/my_extra_checks/AWSRULE9.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_14/IC_AWS_14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_14/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_15/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_15/my_extra_checks/AWSRULE11.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_15/IC_AWS_15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_15/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_2/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_2/my_extra_checks/AWSRULE2.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_2/IC_AWS_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_2/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_3/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_3/my_extra_checks/AWSRULE3.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_3/IC_AWS_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_3/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_4/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_4/my_extra_checks/AWSRULE4.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_4/IC_AWS_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_4/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_5/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_5/my_extra_checks/AWSRULE5.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_5/IC_AWS_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_5/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_6/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_6/my_extra_checks/AWSRULE6_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_6/IC_AWS_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_6/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_7/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_7/my_extra_checks/AWSRULE6_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_7/IC_AWS_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_7/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_8/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_8/my_extra_checks/AWSRULE6_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_8/IC_AWS_8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_8/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_9/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_9/my_extra_checks/AWSRULE6_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_AWS_9/IC_AWS_9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_AWS_9/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_1/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_1/my_extra_checks/NCPRULE1.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_NCP_1/IC_NCP_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_1/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_4/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_4/my_extra_checks/NCPRULE4.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_NCP_2/IC_NCP_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_4/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_5/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_5/my_extra_checks/NCPRULE4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_NCP_3/IC_NCP_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_5/my_extra_checks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_6/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_6/my_extra_checks/NCPRULE5.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC_NCP_4/IC_NCP_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_NCP_6/my_extra_checks/__init__.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_AWS_16/IC_AWS_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_AWS_17/IC_AWS_17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_AWS_18/IC_AWS_18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_AWS_19/IC_AWS_19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_AWS_20/IC_AWS_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,9 +42,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pj991/Desktop/git/Checkov-AWS - COPT",
+    "last_opened_file_path": "C:/Users/pj991/Desktop/git/Checkov-AWS/IC_AWS_18",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -115,9 +54,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS\IC_AWS_5" />
-      <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS\IC_AWS_1" />
-      <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS" />
+      <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS\IC_AWS_18" />
+      <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS\IC_AWS_19" />
+      <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS\IC_AWS_20" />
+      <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS\IC_AWS_17" />
+      <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS\IC_AWS_16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pj991\Desktop\git\Checkov-AWS\IC_NCP_4" />
@@ -142,7 +83,8 @@
       <workItem from="1669544339171" duration="243000" />
       <workItem from="1669609686396" duration="245000" />
       <workItem from="1669705513021" duration="1339000" />
-      <workItem from="1669803451666" duration="1872000" />
+      <workItem from="1669803451666" duration="3295000" />
+      <workItem from="1669865974627" duration="685000" />
     </task>
     <servers />
   </component>
